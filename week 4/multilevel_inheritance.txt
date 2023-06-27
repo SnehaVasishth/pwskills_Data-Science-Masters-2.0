@@ -1,0 +1,11 @@
+multilevel inheritance
+
+class 1
+    |
+    V
+class 2
+    |
+    V
+class 3
+
+here class 3 can access property of both class 2 and class 1 , while class2 can inherit the properties of class 1

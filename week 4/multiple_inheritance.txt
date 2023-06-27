@@ -1,0 +1,13 @@
+multople inheritance
+
+class1        class2
+
+    \            /
+                /    
+     \         / 
+      \       V
+       V
+       class  3
+       
+       
+       class 3here is getting the property form both class 1 and class2 
