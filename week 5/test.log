@@ -1,0 +1,55 @@
+INFO:root:log tjis line of execution
+INFO:root:this is my print
+ERROR:root:this is my error msg
+WARNING:root:this is the warnung msg
+CRITICAL:root:this is a critical msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:log tjis line of execution
+INFO:root:this is my print
+ERROR:root:this is my error msg
+WARNING:root:this is the warnung msg
+CRITICAL:root:this is a critical msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:log tjis line of execution
+INFO:root:this is my print
+ERROR:root:this is my error msg
+WARNING:root:this is the warnung msg
+CRITICAL:root:this is a critical msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: a823b80d-065f-4aa3-85ce-b47ab22cabd3
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:log tjis line of execution
+INFO:root:this is my print
+ERROR:root:this is my error msg
+WARNING:root:this is the warnung msg
+CRITICAL:root:this is a critical msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 57cad06e-a36b-41df-8d95-6a00408095fe
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:log tjis line of execution
+INFO:root:this is my print
+ERROR:root:this is my error msg
+WARNING:root:this is the warnung msg
+CRITICAL:root:this is a critical msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
+INFO:root:this is info msg
+ERROR:root:this is error msg
