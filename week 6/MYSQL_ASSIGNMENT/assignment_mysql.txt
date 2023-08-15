@@ -1,0 +1,124 @@
+ANS 1.    Database is a collection of data in an efficient manner which helps in mangaing, retrieving and manuplating data easily.
+          Database allow to create ,insert,delete,retrive ,edit data inside database.
+
+          Database is of two types SQL and Nosql
+
+          Sql database is a structured database where data is stored in tables
+          whereas Nosql(not only sql) is used to unstructured or semi structured data in the formate of key-value pairs or json type formate
+
+          Sql is used when the data is uniform and structured means where each record to be stored has same types of attributes
+          while Nosql database is used when data is unstructured or semistructured where each record ,ay have different attributes
+
+          Sql is used where queries are complex and require multiple tables and relationship
+          while Nosql database is used where data is dynamic and require scalability
+
+          Sql databases example: mysql,oracle
+          Nosql database example: mongodb, cassandra
+
+
+
+ANS 2.   DDL stands for Data Defination Language which is used to define and create objects of database. It is subset 
+         sql. It is used for create,delete,edit objects of database
+         CREATE: It is used to create database and database oblects like TABLE
+         ALTER : It is uded to modify, create,delte the structure of database objects
+         DROP : It is used to delte existing database objects like TABLE
+         TRUNCATE: It is used to fastly delete all the records from the table while keeping the structure of table intact
+        
+        
+        
+         CREATE TABLE Details(  
+         NAME VARCHAR(50),
+         ROLLNO INT
+    
+            );  --ANSWER 2
+
+         INSERT INTO Details(NAME,ROLLNO)
+         VALUES('Sneha Vasishth', 26),
+         ('Akanksha Vasishth',10);
+
+         CREATE TABLE Marks(NAME VARCHAR(50),ROLLNO INT, MATHS INT, COMPUTER INT);
+
+         DROP TABLE Marks; --ANSWER 2
+
+         ALTER TABLE `Details`
+         ADD EMAIL VARCHAR(100); --ANSWER 2
+
+         TRUNCATE TABLE Details; --ANSWER 2
+
+
+
+
+
+
+ANS 3.   DML stand for data maipulation language which is the subset of sql. DML is used for manipulating the data stored in database. 
+         It conist of INSERT,UPDATE,DELETE commands
+
+
+
+         INSERT INTO Details(NAME,ROLLNO,EMAIL)
+         VALUES('Sneha Vasishth',26,'snehasjkj@gmail.com'),
+         ('Khushi',23,'khushijjjs@gmail.com');--ANSWER 3
+
+         UPDATE `Details`
+         SET NAME = 'Aashi'
+         WHERE NAME= 'Sneha Vasishth'; -- Answer 3
+
+
+
+         DELETE FROM Details
+         WHERE ROLLNO = 23;
+
+
+
+
+ANS 4.   DQL stands for data query language which is a subset of SQL
+         It is mainly used for quering and fetching data from database.
+         For this purpose we use SELECT commands
+
+         
+
+         SELECT NAME
+         FROM `Details`
+         WHERE ROLLNO= 26;-- ANSWER 4
+
+
+
+ANS 5.   Primary key is a columns whose value is unique for all records.
+         Primary key column contains non-null values acorss all records or row.
+         Primary key column hepls to uniquely identify a paticular record.
+
+         Foreign key is a column which is used to establish relationship with other tables. 
+         It represnts relationship between tables  usually indicatin that the value of foreign key value 
+         column of one table corresponds to values of primary key columns of another TABLE
+
+
+
+ANS 6.   cursor()- It is a method which acts like pointer to connect python to our sql DATABASE
+                   It helps to manage and execute sql commands
+
+         execute()- Inside execute we write the sql command which we want python to execute through CURSOR
+
+
+
+         (Example is given in demo.py)
+
+
+
+
+ANS 7.   The order of execution of SQL clauses in a SQL query generally follows these steps:
+
+FROM: Specifies the tableS from which data is retrieved.
+JOIN: Joins additional tables together based on specified conditions. 
+WHERE: Filters the rows based on specified conditions. 
+
+GROUP BY: Groups rows that have the same values in specified columns. 
+
+HAVING: Filters the results of GROUP BY based on specified conditions. It restricts the grouped data that will be included in the output.
+
+SELECT: Specifies the columns to be retrieved. 
+
+DISTINCT: Removes duplicate rows from the result set.
+
+ORDER BY: Sorts the result set based on specified columns and sorting directions.
+LIMIT : Used to limit the number of rows returned .
+    
